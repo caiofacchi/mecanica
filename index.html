@@ -1,90 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mecânica unisoft</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mecânica unisoft</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Mecânica Unisoft</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">A Empresa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contato</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mecânica Unisoft</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#empresa">A Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Final do topo do site-->
+  <div class="container">
+    <div class="row mt-5" id="inicio">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/foto-01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/foto-02.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/foto-03.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-      </nav>
-      <!--Final do topo do site-->
-      <div class="container">
-        <div class="row mt-5">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="imagens/foto-01.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="imagens/foto-02.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="imagens/foto-03.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-6 col-12">
+
+        <h2>Mecânica Unisoft</h2>
+        <p>Nossa mecânica utiliza equipamentos de ultima geração e conta com profissionais qualificados para a
+          realização de diagnósticos dos sisteas eletronicos e mecânicos dos veiculos. <br>
+          O objetivo do nosso atendimento é que o cliente fiqye 100% satisfeito com nossos serviços, por que só
+          recomendamos oque realmente precisa de manitenção. Valorizamos a érica, transparencia e clareza em primeiro
+          lugar em nossos atendimentos.</p>
+      </div>
+      <div class="col-lg-6 col-12">
+        <img class="img-fluid" src="imagens/imagem-1.jpg" alt="">
+      </div>
+    </div><!--fim da seção início-->
+    <div class="row mt-5">
+      <h2 id="empresa" class="text-center mb-5">
+a empresa 
+      </h2>
+      <div class="col-lg-6 col-12">
+        <h2>Atuamos no setor de diagnósticos eletronicos e reparos mecânicos da linha leve há mais de 25 anos</h2>
+        <p>
+          Primando sempre pelo aperfeiçoamento dos nossos colaboradores e pela utilizaçao de ultima geração, construimos
+          uma marca conslidada no mercado automatico, nos tornando referencia pelo padrao de qualidade que oferecemos
+          aos nossos clientes.
+
+          Atuamos com uma gama muito ampla de serviços de manutenção mecânica de veiculos nacionais e importados.
+          Buscamos sempre a solução mais inteligentes com o foco no essencial.
+        </p>
+
+      </div>
+      <div class="col-lg-6 col-12">
+        <img class="img-fluid" src="imagens/imagem-1.jpg" alt="">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <h2 id="servicos" class="text-center mb-5">Nossos Serviços</h2>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/embreagem.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sistema de Embreagem</h5>
+            <p class="card-text">A embreagem faz parte do sistema de transmissão do veículo é responsável por transferir a força para a caixa de câmbio..</p>
+
+          </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-lg-6 col-12">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/freios.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Revisão completa do sistema de freio</h5>
+            <p class="card-text">Esse procedimento visa identificar o estado das peças do sistema de ferragem.</p>
 
-                <h2>Mecânica Unisoft</h2>
-                <p>Nossa mecânica utiliza equipamentos de ultima geração e conta com profissionais qualificados para a realização de diagnósticos dos sisteas eletronicos e mecânicos dos veiculos. <br>
-                O objetivo do nosso atendimento é que o cliente fiqye 100% satisfeito com nossos serviços, por que só recomendamos oque realmente precisa de manitenção. Valorizamos a érica, transparencia e clareza em primeiro lugar em nossos atendimentos.</p>
-            </div>
-            <div class="col-lg-6 col-12">
-                <img class="img-fluid" src="imagens/imagem-1.jpg" alt="">
-            </div>
-        </div><!--fim da seção início-->
-        <div class="row mt-5">
-            <h2 class="text-center mb-5">
-
-            </h2>
-            <div class="col-lg-6 col-12">
-                <h2>Atuamos no setor de diagnósticos eletronicos e reparos mecânicos da linha leve há mais de 25 anos</h2>
-                <p>
-                    Primando sempre pelo aperfeiçoamento dos nossos colaboradores e pela utilizaçao de ultima geração, construimos uma 
-                </p>
-
-            </div>
-            <div class="col-lg-6 col-12">
-
-            </div>
+          </div>
         </div>
-      </div> <!--NADA APARTIR DAQUI-->
-    
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/amortecedor.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Revisão completa do sistema de suspensão</h5>
+            <p class="card-text">Uma boa revisão da suspensão do arro é primordial para manter o veículo sempre em ordem.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/ar condicionado.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Manutenção e higienização do Ar-Condicionado</h5>
+            <p class="card-text">A recomendação geral é que se faça a limpeza do ar-condicionado automotivo a cada seis meses.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/troca de óleo e filtro.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Troca de Óleo e Filtros</h5>
+            <p class="card-text">Pode parecer uma bobagem, mas a troca de óleo é dos procedimentos mais importantes para a vida utíl do motor.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/correia dentada.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Toca do kit de Correia Dentada</h5>
+            <p class="card-text">Para quem ainda não sabe qual é a funcionalidade da correia dentada, sincronizar a vibragem</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/reparo em câmbio automático.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reparo em Câmbio Automátizado</h5>
+            <p class="card-text">A recuperação de câmbio automático visa a preservação do carro, viabilizando longevidade ao veículo.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/torca de óleo em câmbio automatizado.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Troca do óleo do câmbio automático</h5>
+            <p class="card-text">A troca de óleo do câmbio automático ainda não é uma rotina de manutenção pra muitos condutores.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="imagens/revisão.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Revisão Preventiva</h5>
+            <p class="card-text">A revisão preventiva corrige as falhas e os problemas antes que eles ocorram.Assim, reduz os custos e aumenta a aficiência da manutenção.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <h2 id="contato" class="text-center mb-5">Entre em contato conosco</h2>
+      <div class="col-9 mx-auto">
+        <form class="row g-3">
+          <div class="col-12">
+            <label for="inputEmail4" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputAddress" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="inputAddress" >
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, Número, Bairro">
+          </div>
+          <div class="col-12">
+            <label for="inputCity" class="form-label">Mande a sua mensagem</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div> <!--NADA APARTIR DAQUI-->
+
 </body>
+
 </html>
